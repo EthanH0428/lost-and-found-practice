@@ -46,22 +46,9 @@ docs/API.md     # 엔드포인트 요약
 
 ## 소프트웨어 설계
 ### 화면 설계
-### 소프트웨어 아키텍처 설계
+### 아키텍처 설계
 ### 상세 설계
 
-## 소프트웨어 테스트
-### TDD
-### 단위 테스트
-- pytest
-- code metric
-- lizard
-- cpd
-- flask8
-
-## 개발
-### 코딩 규칙
-### branch 전략
-### ...
 
 
 개발 중 생성되는 데이터베이스는 `data/`에 저장되며 Git에는 포함되지 않습니다. Docker로 실행하려면 `docker compose up --build`를 사용하세요.
